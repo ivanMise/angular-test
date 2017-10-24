@@ -1,0 +1,8 @@
+<iap-lista-item-historia *ngFor="let post of posts"
+                            [post]="post" (select)="seleccionado()">
+
+</iap-lista-item-historia>
+
+  <pre>
+      {{posts|json}}
+  </pre>
